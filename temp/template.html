@@ -1,0 +1,108 @@
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<table width="800" border="1px" cellspacing="0px" style="border-collapse:collapse">
+  <tr>
+    <td height="54" colspan="7"><div align="center"><strong>浙江中通通信有限公司板件失效分析报告</strong></div></td>
+  </tr>
+  <tr>
+    <td width="158" height="40">客户名称：</td>
+    <td height="40" colspan="3">{{name}}</td>
+    <td width="118" height="40">设备品牌：</td>
+    <td height="40" colspan="2">{{brand}}</td>
+  </tr>
+  <tr>
+    <td width="158" height="40">设备条码：</td>
+    <td height="40" colspan="3">{{serial_number}}</td>
+    <td width="118" height="40">设备名称：</td>
+    <td height="40" colspan="2">{{device_name}}</td>
+  </tr>
+  <tr>
+    <td width="158" height="40">设备类别：</td>
+    <td height="40" colspan="3">{{device_type}}</td>
+    <td width="118" height="40">软件版本：</td>
+    <td height="40" colspan="2">\</td>
+  </tr>
+  <tr>
+    <td width="158" height="40">测试项目：</td>
+    <td height="40" colspan="4"></td>
+    <td width="118" rowspan="2">维修日期：</td>
+    <td width="114" rowspan="2">{{repair_date}}</td>
+  </tr>
+  <tr>
+    <td width="158" height="40">测试项目</td>
+    <td width="94" height="40">测试结果</td>
+    <td width="92" height="40">测试项目</td>
+    <td width="76" height="40">测试结果</td>
+    <td width="118" rowspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="158" height="40">外观检测</td>
+    <td width="94" height="40">失败</td>
+    <td width="92" height="40">上电测试</td>
+    <td width="76" height="40">失败</td>
+    <td height="40" colspan="2">测试仪表：</td>
+  </tr>
+  <tr>
+    <td width="158" height="40">功能测试</td>
+    <td width="94" height="40">不涉及</td>
+    <td width="92" height="40">系统测试</td>
+    <td width="76" height="40">不涉及</td>
+    <td colspan="2" rowspan="2">万用表，示波器等</td>
+  </tr>
+  <tr>
+    <td height="40" colspan="5">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="40" colspan="5">故障原因定位分析：</td>
+    <td width="118">分析人：</td>
+    <td width="114" height="40">{{analyst}}</td>
+  </tr>
+  <tr>
+    <td colspan="5" rowspan="2">{{reason}}</td>
+    <td width="118">审核人：</td>
+    <td width="114" height="40">{{reviewer}}</td>
+  </tr>
+  <tr>
+    <td width="118" height="40">&nbsp;</td>
+    <td width="114" height="40">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="200" colspan="5"><img src="{{pic}}" width="80%" height="80%"/></td>
+    <td colspan="2" rowspan="2"><p>维修结论：</p>
+    <p>□ 修复</p>
+    <p>█ 无法修复</p>
+    <p>□ 故障不重现</p>
+    <p>□ 其他</p></td>
+  </tr>
+  <tr>
+    <td height="40" colspan="5">维修措施：报废</td>
+  </tr>
+  <tr>
+    <td height="40" colspan="2">是否有工艺、外观、缺件问题</td>
+    <td height="40" colspan="5">是</td>
+  </tr>
+  <tr>
+    <td height="40" colspan="2">是否新老软硬版本配套的问题</td>
+    <td height="40" colspan="5">否</td>
+  </tr>
+  <tr>
+    <td width="158" height="40">故障原因：</td>
+    <td height="40" colspan="6">{{reason}}</td>
+  </tr>
+  <tr>
+    <td width="158" height="100">维护建议：</td>
+    <td height="100" colspan="6">请您改善机房的工作环境，保持机房温度20-30摄氏度、湿度30%-70%之间，做好防水防尘防潮措施以及网线的布线安装，避免雨水从设备的正面或侧面散热孔进水，严格按照安装手册布线安装，以防雨水沿网线通过网口、光纤口流入设备而导致单板腐蚀及芯片失效</td>
+  </tr>
+  <tr>
+    <td colspan="7"><div align="right">
+      <p>浙江中通通信有限公司　</p>
+      <p>{{date}}　</p>
+    </div></td>
+  </tr>
+  
+  <tr>
+    <td colspan="7"><p>备注：</p>
+    <p>板件分析报告涉及商业机密，未经浙江中通通信有限公司授权，任何单位、个人不得私自传播</p></td>
+  </tr>
+</table>
+</html>
